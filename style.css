@@ -1,0 +1,42 @@
+body {
+	font-family: 'Inter';
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.todo-container {
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+}
+
+.todo-header {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.todo-title {
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 8px;
+}
+
+.todo-input {
+	outline: none;
+}
+
+.todo-button {
+	display: inline-block;
+	padding: 4px 8px;
+	border: none;
+	cursor: pointer;
+	border-radius: 6px;
+}
+
+.todo-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
